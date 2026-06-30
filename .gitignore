@@ -1,0 +1,7 @@
+.DS_Store
+
+*.out
+test
+shun4mitex-bot
+.env
+.vscode
