@@ -1,6 +1,6 @@
-# Shun4miMath Natural Math Syntax
+# Shun4miTeX Natural Math Syntax
 
-Natural math syntax is an easier way to type mathematics without knowing LaTeX. Shun4miMath automatically converts the syntax below into proper LaTeX before rendering. Instead of relying on `{}` like in LaTeX, natural math syntax relies on spacing and `()` to determine how inputs are parsed.
+Natural math syntax is an easier way to type mathematics without knowing LaTeX. Shun4miTeX automatically converts the syntax below into proper LaTeX before rendering. Instead of relying on `{}` like in LaTeX, natural math syntax relies on spacing and `()` to determine how inputs are parsed.
 
 ---
 
@@ -17,6 +17,10 @@ This is @@pi r^2@@.
 sum(i = 1, n, i^2)
 @@@
 ```
+
+Display math delimiters `@@@...@@@` are intended for top-level display blocks. Do not nest `@@@...@@@` inside another `@@@...@@@` block.
+
+Inside lists such as `parts(...)`, `numlist(...)`, or `bullets(...)`, use `@@...@@` for inline math. If you want display-style math inside a list item, use `display(...)` or `disp(...)`.
 
 ---
 
@@ -315,7 +319,7 @@ Columns are separated by commas (`,`).
 
 ---
 
-# Lists (Make sure to not use inline here! Use `@@@...@@@`)
+# Lists (Make sure use inside a `@@@...@@@` block!)
 
 Natural math supports line-based lists. Each non-empty line becomes one item.
 
@@ -365,7 +369,7 @@ numberedlist(...)
 
 ---
 
-# Cases and Piecewise Functions (Make sure to not use inline here! Use `@@@...@@@`)
+# Cases and Piecewise Functions (Make to use inside a `@@@...@@@` block!)
 
 Use `cases(...)` or `piecewise(...)` for piecewise definitions.
 
