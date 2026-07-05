@@ -402,6 +402,19 @@ binom(n, k)
 choose(n, k)
 ```
 
+Alternate nCr notation:
+
+```text
+altchoose(n, k)
+
+choosealt(n, k)
+```
+
+Permutations (nPr):
+```text
+perm(n, k)
+```
+
 Vector and accent notation:
 
 ```text
