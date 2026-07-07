@@ -91,14 +91,20 @@ alpha
 ```text
 <=   >=   !=
 ->   <-   =>
+iff or <=>
+<->
 ```
 
 ```text
-cup
-cap
+union
+intersect
 subset
 subseteq
-in
+setminus
+inset
+elemof
+notinset
+notelemof
 notin
 ```
 
@@ -451,6 +457,10 @@ angle(ABC)
 triangle ABC
 
 deg(45)
+
+(f circ g)(x)
+
+L_1 perp L_2
 ```
 
 ---
