@@ -582,6 +582,12 @@ For example,
 
 is perfectly valid.
 
+## Advanced: Raw TeX
+
+Use `tex{...}` when you want to write LaTeX directly, but still want Shun4miTeX to parse `@@...@@` and `@@@...@@@` inside it.
+
+Use `rawtex{...}` or `raw{...}` when you want the content to be passed to LaTeX unchanged.
+
 ---
 
 # Notes
