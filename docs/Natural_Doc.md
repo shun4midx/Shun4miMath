@@ -1,6 +1,6 @@
-# Shun4miTeX Natural Math Syntax
+# Shun4miMath Natural Math Syntax
 
-Natural math syntax is an easier way to type mathematics without knowing LaTeX. Shun4miTeX automatically converts the syntax below into proper LaTeX before rendering. Instead of relying on `{}` like in LaTeX, natural math syntax relies on spacing and `()` to determine how inputs are parsed.
+Natural math syntax is an easier way to type mathematics without knowing LaTeX. Shun4miMath automatically converts the syntax below into proper LaTeX before rendering. Instead of relying on `{}` like in LaTeX, natural math syntax relies on spacing and `()` to determine how inputs are parsed.
 
 ---
 
@@ -584,7 +584,7 @@ is perfectly valid.
 
 ## Advanced: Raw TeX
 
-Use `tex{...}` when you want to write LaTeX directly, but still want Shun4miTeX to parse `@@...@@` and `@@@...@@@` inside it.
+Use `tex{...}` when you want to write LaTeX directly, but still want Shun4miMath to parse `@@...@@` and `@@@...@@@` inside it.
 
 Use `rawtex{...}` or `raw{...}` when you want the content to be passed to LaTeX unchanged.
 
